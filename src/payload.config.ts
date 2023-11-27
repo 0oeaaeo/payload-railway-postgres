@@ -10,8 +10,6 @@ import redirects from '@payloadcms/plugin-redirects'
 import seo from '@payloadcms/plugin-seo'
 import { lexicalEditor } from '@payloadcms/richtext-lexical'
 import path from 'path'
-import { buildConfig } from 'payload/config'
-
 import Categories from './collections/Categories'
 import Comments from './collections/Comments'
 import { Media } from './collections/Media'
