@@ -26,7 +26,6 @@ import { Footer } from './globals/Footer'
 import { Header } from './globals/Header'
 import { Settings } from './globals/Settings'
 
-import Users from './collections/Users'
 
 export default buildConfig({
   serverURL : process.env.PAYLOAD_PUBLIC_SERVER_URL || 'http://127.0.0.1:3000',
